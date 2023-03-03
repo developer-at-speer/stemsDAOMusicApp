@@ -29,7 +29,7 @@
 <h3 align="center">Stems DAO</h3>
 
   <p align="center">
-    An iOS app that allow users to log in using Web3 wallet and google, and select song as their profile theme song
+    An iOS app that allows users to log in using a Web3 wallet or Google Account, browse through a list of songs, and select one as their profile theme song.
   </p>
 </div>
 
@@ -68,9 +68,9 @@
   <img src="assets/main-screen.jpg" alt="Logo" width="200" height="400">
 </div>
 
-This is a DEMO of Stems DAO react native app, which will be mainly used on iOS devices.
+This is a DEMO of Stems DAO React Native app, which will be mainly used on iOS devices.
 
-Users can login using their google account, or using their Web3 wallet. 
+Users can login using their Google account, or using their Web3 wallet. 
 
 Authenticated users can select/play songs from a list of ten songs, and set song as profile theme song.
 
@@ -92,8 +92,8 @@ Authenticated users can select/play songs from a list of ten songs, and set song
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is the instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Below are the instructions on setting up your project locally.
+To get a local copy up and running follow these simple steps.
 
 
 ### Prerequisites
@@ -121,11 +121,11 @@ It is recommended to use [nvm](https://github.com/nvm-sh/nvm) to manage node ver
   ```sh
    npm start
    ```
-4. After expo metro is running, press `i` on keyboard to run on simulator, or scan the QR code on your device.
+4. After expo metro is running, press `i` on keyboard to run on simulator, or scan the QR code on your device. You need to have Expo Go installed to be able to run this on your device.
 
 ### Local Development
 
-In order to use the Google login locally, you need to whitelist your IP address in the [Web3Auth dashboard](https://dashboard.web3auth.io/). You can add your IP in `Plug and play` -> `stemsDaoAssessment` -> `Whitelisted URLs`. If you are using a different project, you will need to updated the `clientId` in order to use web3auth login.
+In order to use the Google login locally, you need to whitelist your IP address in the [Web3Auth dashboard](https://dashboard.web3auth.io/). You can add your IP in `Plug and play` -> `stemsDaoAssessment` -> `Whitelisted URLs`. If you are using a different project, you will need to update the `clientId` in order to use web3auth login.
 
 You will be able to get your app IP address by trying the Google login on the app. The IP address will be displayed in the error message starting with `exp://` and ends with a port number. 
 
@@ -158,7 +158,7 @@ Here are few assumptions made during the development for a better demonstration 
 1. Login functionality for all popular social media platforms.
 2. Allowing users to upload the songs to select as their theme song.
 3. Allowing users to select dark/light theme.
-4. Since the platform already allowed web3 integration, allowing users to donate web3 coins to music creators.
+4. Since the platform already uses a web3 integration - allowing users to donate web3 tokens to music creators.
 5. Improvements to the seek bar: Adding standard music player functions like 10 seconds forward, 10 seconds back, the time elapsed and time left
 6. Building another player screen to show band details, song details, next song etc.
 
