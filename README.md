@@ -50,6 +50,7 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#local-development">Local Development</a></li>
       </ul>
     </li>
     <li><a href="#checklist">Checklist</a></li>
@@ -122,15 +123,24 @@ It is recommended to use [nvm](https://github.com/nvm-sh/nvm) to manage node ver
    ```
 4. After expo metro is running, press `i` on keyboard to run on simulator, or scan the QR code on your device.
 
+### Local Development
+
+In order to use the Google login locally, you need to whitelist your IP address in the [Web3Auth dashboard](https://dashboard.web3auth.io/). You can add your IP in `Plug and play` -> `stemsDaoAssessment` -> `Whitelisted URLs`. If you are using a different project, you will need to updated the `clientId` in order to use web3auth login.
+
+You will be able to get your app IP address by trying the Google login on the app. The IP address will be displayed in the error message starting with `exp://` and ends with a port number. 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
 
 <!-- ROADMAP -->
 ## Checklist
 
 - [x] User can login via wallet and google
 - [x] User can select songs from a list of ten songs in a media player with a seekbar
-- [x] User can set their proile theme song
-- [x] User can change their proile theme song
+- [x] User can set their profile theme song
+- [x] User can change their profile theme song
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,9 +155,11 @@ Here are few assumptions made during the development for a better demonstration 
 
 ## Additional Features I Would Add
 
-1. Login functionality for all social media platforms, and all wallets.
+1. Login functionality for all popular social media platforms.
 2. Allowing users to upload the songs to select as their theme song.
 3. Allowing users to select dark/light theme.
-4. Allowing users to donate coins to music creators.
+4. Since the platform already allowed web3 integration, allowing users to donate web3 coins to music creators.
+5. Improvements to the seek bar: Adding standard music player functions like 10 seconds forward, 10 seconds back, the time elapsed and time left
+6. Building another player screen to show band details, song details, next song etc.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
