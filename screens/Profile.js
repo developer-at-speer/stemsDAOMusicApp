@@ -53,7 +53,7 @@ export default function Profile({ theme, playSound, pauseSound }) {
       <Box style={styles.container}>
         <NavHeader
           title={'Profile'}
-          onBackPress={() => navigation.navigate('Profile')}
+          onBackPress={() => navigation.navigate('SongList')}
         />
         <Box style={{ alignItems: 'center' }}>
           <Box>
