@@ -10,8 +10,8 @@ export default function AuthNavHeader({ title, onBackPress }) {
         alignItems: 'center',
       }}
     >
-      <IconButton icon='arrow-left' onPress={onBackPress} />
-      <Text style={{ fontSize: 24, color: 'white' }}>{title}</Text>
+      {onBackPress && <IconButton icon='arrow-left' onPress={onBackPress} />}
+      <Text style={{ fontSize: 24, color: 'white', paddingLeft: onBackPress? 0: 20 }}>{title}</Text>
     </View>
   );
 }

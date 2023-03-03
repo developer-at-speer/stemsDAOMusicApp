@@ -24,7 +24,6 @@ export default function SongList({ setTheme, playSound, pauseSound }) {
     <SafeAreaView style={{ flex: 1, backgroundColor: '#1d1d1e' }}>
       <NavHeader
         title={'Songs List'}
-        onBackPress={() => navigation.navigate('Profile')}
       />
       <Box style={{ flex: 1, paddingHorizontal: 20 }}>
         <ScrollView style={{ flex: 1 }}>
